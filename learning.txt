@@ -14,3 +14,31 @@ I am learning Git fundamentals.
 Git tracks every change I make.
 I can commit my work to save progress.
 
+
+
+Essential Git Commands
+
+git config --global user.name "Name"    # Set your name (once)
+
+git config --global user.email "email"  # Set your email (once)
+
+git init # Turn folder into Git repo
+
+git status # Check current state (use constantly!)
+git add filename  # Stage specific file
+
+git commit -m "message" # Save staged changes
+
+git log # View full commit history
+
+git log --oneline  # View compact history
+
+git diff  # See unstaged changes
+
+git restore filename # Undo uncommitted changes
+
+git checkout <hash> # Explore old commit
+
+git checkout main # Return to latest version
+
+I just pushed my first repo to GitHub!
